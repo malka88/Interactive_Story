@@ -37,7 +37,8 @@
             android:hint="@string/name_hint"
             android:inputType="textPersonName|textCapWords"
             android:maxLength="30"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:autofillHints="name" />
 
         <Button
             android:id="@+id/startButton"

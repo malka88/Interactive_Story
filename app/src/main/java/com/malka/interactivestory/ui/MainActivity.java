@@ -22,13 +22,10 @@ public class MainActivity extends AppCompatActivity {
         nameField = findViewById(R.id.nameEditText);
         startButton = findViewById(R.id.startButton);
 
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String name = nameField.getText().toString();
-                
-                startStory(name);
-            }
+        startButton.setOnClickListener(view -> {
+            String name = nameField.getText().toString();
+
+            startStory(name);
         });
     }
 

@@ -4,7 +4,7 @@ import com.malka.interactivestory.R;
 
 public class Story {
     private final int PAGES_NUMBER = 7;
-    private Page[] pages;
+    private final Page[] pages;
 
     public Story() {
         pages = new Page[PAGES_NUMBER];

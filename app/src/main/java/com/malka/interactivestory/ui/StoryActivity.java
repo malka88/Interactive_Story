@@ -24,7 +24,7 @@ public class StoryActivity extends AppCompatActivity {
     private TextView storyTextView;
     private Button choice1Button;
     private Button choice2Button;
-    private Stack<Integer> pageStack = new Stack<>();
+    private final Stack<Integer> pageStack = new Stack<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
