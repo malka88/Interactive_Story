@@ -1,4 +1,4 @@
-# Interactive_Story
+# Interactive Story
 Android application with a small interactive story about Mars
 
 You can enter your name and start reading the story. You can also make decisions and change the course of the story. To return to previous page, you can tap on Back button.
